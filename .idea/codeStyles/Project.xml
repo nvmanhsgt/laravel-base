@@ -1,0 +1,2601 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <option name="OTHER_INDENT_OPTIONS">
+      <value>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </value>
+    </option>
+    <option name="LINE_SEPARATOR" value="&#10;" />
+    <CssCodeStyleSettings>
+      <option name="PROPERTIES_ORDER" value="display, visibility, opacity, overflow, overflow-x, overflow-y, backface-visibility, position, z-index, top, right, bottom, left, float, text-align, vertical-align, text-justify, flex, order, flex-basis, flex-direction, flex-flow, flex-grow, flex-shrink, flex-wrap, justify-content, align-content, align-items, align-self, grid, grid-area, grid-auto-columns, grid-auto-flow, grid-auto-rows, grid-column, grid-column-end, grid-column-gap, grid-column-start, grid-gap, grid-row, grid-row-end, grid-row-gap, grid-row-start, grid-template, grid-template-areas, grid-template-columns, grid-template-rows, box-sizing, width, min-width, max-width, height, min-height, max-height, padding, padding-top, padding-right, padding-bottom, padding-left, border, border-top, border-right, border-bottom, border-left, border-radius, margin, margin-top, margin-right, margin-bottom, margin-left, box-shadow, background, background-color, background-image, background-position, background-size, background-repeat, color, font, font-family, font-style, font-size, font-weight, line-height, letter-spacing, text-decoration, text-shadow, white-space, word-spacing, word-wrap, word-break, line-break, writing-mode, cursor, list-style, list-style-image, list-style-position, list-style-type, outline, outline-color, outline-offset, outline-style, outline-width, transform, transition, transition-property, transition-duration, transition-timing-function, transition-delay, animation, animation-name, animation-duration, animation-timing-function, animation-delay" />
+      <option name="HEX_COLOR_LOWER_CASE" value="true" />
+      <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
+      <option name="KEEP_SINGLE_LINE_BLOCKS" value="true" />
+    </CssCodeStyleSettings>
+    <DB2CodeStyleSettings version="5">
+      <option name="myVersion" value="5" />
+      <option name="ALIAS_CASE" value="4" />
+      <option name="TYPE_CASE" value="3" />
+      <option name="QUOTE_IDENTIFIER" value="1" />
+      <option name="QUERY_TRUE_INDENT" value="false" />
+      <option name="QUERY_ALIGN_LINE_COMMENTS" value="false" />
+      <option name="INSERT_EL_COMMA" value="2" />
+      <option name="SET_EL_WRAP" value="0" />
+      <option name="SET_EL_COMMA" value="0" />
+      <option name="WITH_EL_WRAP" value="0" />
+      <option name="WITH_EL_COMMA" value="0" />
+      <option name="SELECT_EL_WRAP" value="3" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="FROM_EL_WRAP" value="2" />
+      <option name="FROM_EL_COMMA" value="2" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="WHERE_EL_WRAP" value="3" />
+      <option name="WHERE_EL_BOUND" value="2" />
+      <option name="ORDER_EL_COMMA" value="2" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+      <option name="POST_OPT_WRAP_2" value="false" />
+      <option name="POST_OPT_ALIGN" value="false" />
+      <option name="ROUTINE_ARG_COMMA" value="2" />
+      <option name="ROUTINE_ARG_ALIGN_TYPES" value="true" />
+      <option name="IMP_DECLARE_EL_WRAP" value="1" />
+      <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+      <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+      <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+      <option name="EXPR_CASE_THEN_WRAP" value="true" />
+      <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+    </DB2CodeStyleSettings>
+    <DerbyCodeStyleSettings version="5">
+      <option name="myVersion" value="5" />
+      <option name="ALIAS_CASE" value="4" />
+      <option name="TYPE_CASE" value="3" />
+      <option name="QUOTE_IDENTIFIER" value="1" />
+      <option name="QUERY_TRUE_INDENT" value="false" />
+      <option name="QUERY_ALIGN_LINE_COMMENTS" value="false" />
+      <option name="INSERT_EL_COMMA" value="2" />
+      <option name="SET_EL_WRAP" value="0" />
+      <option name="SET_EL_COMMA" value="0" />
+      <option name="WITH_EL_WRAP" value="0" />
+      <option name="WITH_EL_COMMA" value="0" />
+      <option name="SELECT_EL_WRAP" value="3" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="FROM_EL_WRAP" value="2" />
+      <option name="FROM_EL_COMMA" value="2" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="WHERE_EL_WRAP" value="3" />
+      <option name="WHERE_EL_BOUND" value="2" />
+      <option name="ORDER_EL_COMMA" value="2" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+      <option name="POST_OPT_WRAP_2" value="false" />
+      <option name="POST_OPT_ALIGN" value="false" />
+      <option name="ROUTINE_ARG_COMMA" value="2" />
+      <option name="ROUTINE_ARG_ALIGN_TYPES" value="true" />
+      <option name="IMP_DECLARE_EL_WRAP" value="1" />
+      <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+      <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+      <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+      <option name="EXPR_CASE_THEN_WRAP" value="true" />
+      <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+    </DerbyCodeStyleSettings>
+    <H2CodeStyleSettings version="5">
+      <option name="myVersion" value="5" />
+      <option name="ALIAS_CASE" value="4" />
+      <option name="TYPE_CASE" value="3" />
+      <option name="QUOTE_IDENTIFIER" value="1" />
+      <option name="QUERY_TRUE_INDENT" value="false" />
+      <option name="QUERY_ALIGN_LINE_COMMENTS" value="false" />
+      <option name="INSERT_EL_COMMA" value="2" />
+      <option name="SET_EL_WRAP" value="0" />
+      <option name="SET_EL_COMMA" value="0" />
+      <option name="WITH_EL_WRAP" value="0" />
+      <option name="WITH_EL_COMMA" value="0" />
+      <option name="SELECT_EL_WRAP" value="3" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="FROM_EL_WRAP" value="2" />
+      <option name="FROM_EL_COMMA" value="2" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="WHERE_EL_WRAP" value="3" />
+      <option name="WHERE_EL_BOUND" value="2" />
+      <option name="ORDER_EL_COMMA" value="2" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+      <option name="POST_OPT_WRAP_2" value="false" />
+      <option name="POST_OPT_ALIGN" value="false" />
+      <option name="ROUTINE_ARG_COMMA" value="2" />
+      <option name="ROUTINE_ARG_ALIGN_TYPES" value="true" />
+      <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+      <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+      <option name="EXPR_CASE_THEN_WRAP" value="true" />
+      <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+    </H2CodeStyleSettings>
+    <HSQLCodeStyleSettings version="5">
+      <option name="myVersion" value="5" />
+      <option name="ALIAS_CASE" value="4" />
+      <option name="TYPE_CASE" value="3" />
+      <option name="QUOTE_IDENTIFIER" value="1" />
+      <option name="QUERY_TRUE_INDENT" value="false" />
+      <option name="QUERY_ALIGN_LINE_COMMENTS" value="false" />
+      <option name="INSERT_EL_COMMA" value="2" />
+      <option name="SET_EL_WRAP" value="0" />
+      <option name="SET_EL_COMMA" value="0" />
+      <option name="WITH_EL_WRAP" value="0" />
+      <option name="WITH_EL_COMMA" value="0" />
+      <option name="SELECT_EL_WRAP" value="3" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="FROM_EL_WRAP" value="2" />
+      <option name="FROM_EL_COMMA" value="2" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="WHERE_EL_WRAP" value="3" />
+      <option name="WHERE_EL_BOUND" value="2" />
+      <option name="ORDER_EL_COMMA" value="2" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+      <option name="POST_OPT_WRAP_2" value="false" />
+      <option name="POST_OPT_ALIGN" value="false" />
+      <option name="ROUTINE_ARG_COMMA" value="2" />
+      <option name="ROUTINE_ARG_ALIGN_TYPES" value="true" />
+      <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+      <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+      <option name="EXPR_CASE_THEN_WRAP" value="true" />
+      <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+    </HSQLCodeStyleSettings>
+    <HTMLCodeStyleSettings>
+      <option name="HTML_ATTRIBUTE_WRAP" value="0" />
+      <option name="HTML_TEXT_WRAP" value="0" />
+      <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
+      <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html,thead,tbody,tfoot" />
+      <option name="HTML_ENFORCE_QUOTES" value="true" />
+    </HTMLCodeStyleSettings>
+    <JSCodeStyleSettings version="0">
+      <option name="FORCE_SEMICOLON_STYLE" value="true" />
+      <option name="USE_DOUBLE_QUOTES" value="false" />
+      <option name="FORCE_QUOTE_STYlE" value="true" />
+      <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
+      <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
+      <option name="SPACES_WITHIN_IMPORTS" value="true" />
+      <option name="IMPORT_SORT_MODULE_NAME" value="true" />
+    </JSCodeStyleSettings>
+    <JavaCodeStyleSettings>
+      <option name="JD_ADD_BLANK_AFTER_PARM_COMMENTS" value="true" />
+    </JavaCodeStyleSettings>
+    <LessCodeStyleSettings>
+      <option name="HEX_COLOR_LOWER_CASE" value="true" />
+      <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
+      <option name="KEEP_SINGLE_LINE_BLOCKS" value="true" />
+    </LessCodeStyleSettings>
+    <MSSQLCodeStyleSettings version="5">
+      <option name="myVersion" value="5" />
+      <option name="ALIAS_CASE" value="4" />
+      <option name="TYPE_CASE" value="3" />
+      <option name="QUOTE_IDENTIFIER" value="1" />
+      <option name="QUERY_TRUE_INDENT" value="false" />
+      <option name="QUERY_ALIGN_LINE_COMMENTS" value="false" />
+      <option name="INSERT_EL_COMMA" value="2" />
+      <option name="SET_EL_WRAP" value="0" />
+      <option name="SET_EL_COMMA" value="0" />
+      <option name="WITH_EL_WRAP" value="0" />
+      <option name="WITH_EL_COMMA" value="0" />
+      <option name="SELECT_EL_WRAP" value="3" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="FROM_EL_WRAP" value="2" />
+      <option name="FROM_EL_COMMA" value="2" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="WHERE_EL_WRAP" value="3" />
+      <option name="WHERE_EL_BOUND" value="2" />
+      <option name="ORDER_EL_COMMA" value="2" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+      <option name="POST_OPT_WRAP_2" value="false" />
+      <option name="POST_OPT_ALIGN" value="false" />
+      <option name="ROUTINE_ARG_COMMA" value="2" />
+      <option name="ROUTINE_ARG_ALIGN_TYPES" value="true" />
+      <option name="IMP_DECLARE_EL_WRAP" value="1" />
+      <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+      <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+      <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+      <option name="EXPR_CASE_THEN_WRAP" value="true" />
+      <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+    </MSSQLCodeStyleSettings>
+    <MySQLCodeStyleSettings version="5">
+      <option name="myVersion" value="5" />
+      <option name="ALIAS_CASE" value="4" />
+      <option name="TYPE_CASE" value="3" />
+      <option name="QUOTE_IDENTIFIER" value="1" />
+      <option name="QUERY_TRUE_INDENT" value="false" />
+      <option name="QUERY_ALIGN_LINE_COMMENTS" value="false" />
+      <option name="INSERT_EL_COMMA" value="2" />
+      <option name="SET_EL_WRAP" value="0" />
+      <option name="SET_EL_COMMA" value="0" />
+      <option name="WITH_EL_WRAP" value="0" />
+      <option name="WITH_EL_COMMA" value="0" />
+      <option name="SELECT_EL_WRAP" value="3" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="FROM_EL_WRAP" value="2" />
+      <option name="FROM_EL_COMMA" value="2" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="WHERE_EL_WRAP" value="3" />
+      <option name="WHERE_EL_BOUND" value="2" />
+      <option name="ORDER_EL_COMMA" value="2" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+      <option name="POST_OPT_WRAP_2" value="false" />
+      <option name="POST_OPT_ALIGN" value="false" />
+      <option name="ROUTINE_ARG_COMMA" value="2" />
+      <option name="ROUTINE_ARG_ALIGN_TYPES" value="true" />
+      <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+      <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+      <option name="EXPR_CASE_THEN_WRAP" value="true" />
+      <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+    </MySQLCodeStyleSettings>
+    <OracleCodeStyleSettings version="5">
+      <option name="myVersion" value="5" />
+      <option name="ALIAS_CASE" value="4" />
+      <option name="TYPE_CASE" value="3" />
+      <option name="QUOTE_IDENTIFIER" value="1" />
+      <option name="QUERY_TRUE_INDENT" value="false" />
+      <option name="QUERY_ALIGN_LINE_COMMENTS" value="false" />
+      <option name="INSERT_EL_COMMA" value="2" />
+      <option name="SET_EL_WRAP" value="0" />
+      <option name="SET_EL_COMMA" value="0" />
+      <option name="WITH_EL_WRAP" value="0" />
+      <option name="WITH_EL_COMMA" value="0" />
+      <option name="SELECT_EL_WRAP" value="3" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="FROM_EL_WRAP" value="2" />
+      <option name="FROM_EL_COMMA" value="2" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="WHERE_EL_WRAP" value="3" />
+      <option name="WHERE_EL_BOUND" value="2" />
+      <option name="ORDER_EL_COMMA" value="2" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+      <option name="POST_OPT_WRAP_2" value="false" />
+      <option name="POST_OPT_ALIGN" value="false" />
+      <option name="ROUTINE_ARG_COMMA" value="2" />
+      <option name="ROUTINE_ARG_ALIGN_TYPES" value="true" />
+      <option name="IMP_DECLARE_EL_WRAP" value="1" />
+      <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+      <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+      <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+      <option name="EXPR_CASE_THEN_WRAP" value="true" />
+      <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+    </OracleCodeStyleSettings>
+    <PHPCodeStyleSettings>
+      <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
+      <option name="ALIGN_ASSIGNMENTS" value="true" />
+      <option name="CONCAT_SPACES" value="false" />
+      <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true" />
+      <option name="PHPDOC_BLANK_LINE_BEFORE_TAGS" value="true" />
+      <option name="PHPDOC_PARAM_SPACES_BETWEEN_TAG_AND_TYPE" value="2" />
+      <option name="PHPDOC_PARAM_SPACES_BETWEEN_TYPE_AND_NAME" value="2" />
+      <option name="PHPDOC_PARAM_SPACES_BETWEEN_NAME_AND_DESCRIPTION" value="2" />
+      <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
+      <option name="LOWER_CASE_NULL_CONST" value="true" />
+      <option name="ELSE_IF_STYLE" value="COMBINE" />
+      <option name="VARIABLE_NAMING_STYLE" value="CAMEL_CASE" />
+      <option name="KEEP_RPAREN_AND_LBRACE_ON_ONE_LINE" value="true" />
+      <option name="ALIGN_CLASS_CONSTANTS" value="true" />
+      <option name="SPACE_AFTER_UNARY_NOT" value="true" />
+      <option name="SPACE_BETWEEN_TERNARY_QUEST_AND_COLON" value="true" />
+      <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
+    </PHPCodeStyleSettings>
+    <PostgresCodeStyleSettings version="5">
+      <option name="myVersion" value="5" />
+      <option name="ALIAS_CASE" value="4" />
+      <option name="TYPE_CASE" value="3" />
+      <option name="QUOTE_IDENTIFIER" value="1" />
+      <option name="QUERY_TRUE_INDENT" value="false" />
+      <option name="QUERY_ALIGN_LINE_COMMENTS" value="false" />
+      <option name="INSERT_EL_COMMA" value="2" />
+      <option name="SET_EL_WRAP" value="0" />
+      <option name="SET_EL_COMMA" value="0" />
+      <option name="WITH_EL_WRAP" value="0" />
+      <option name="WITH_EL_COMMA" value="0" />
+      <option name="SELECT_EL_WRAP" value="3" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="FROM_EL_WRAP" value="2" />
+      <option name="FROM_EL_COMMA" value="2" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="WHERE_EL_WRAP" value="3" />
+      <option name="WHERE_EL_BOUND" value="2" />
+      <option name="ORDER_EL_COMMA" value="2" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+      <option name="POST_OPT_WRAP_2" value="false" />
+      <option name="POST_OPT_ALIGN" value="false" />
+      <option name="ROUTINE_ARG_COMMA" value="2" />
+      <option name="ROUTINE_ARG_ALIGN_TYPES" value="true" />
+      <option name="IMP_DECLARE_EL_WRAP" value="1" />
+      <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+      <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+      <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+      <option name="EXPR_CASE_THEN_WRAP" value="true" />
+      <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+    </PostgresCodeStyleSettings>
+    <Properties>
+      <option name="KEEP_BLANK_LINES" value="true" />
+    </Properties>
+    <SQLiteCodeStyleSettings version="5">
+      <option name="myVersion" value="5" />
+      <option name="ALIAS_CASE" value="4" />
+      <option name="TYPE_CASE" value="3" />
+      <option name="QUOTE_IDENTIFIER" value="1" />
+      <option name="QUERY_TRUE_INDENT" value="false" />
+      <option name="QUERY_ALIGN_LINE_COMMENTS" value="false" />
+      <option name="INSERT_EL_COMMA" value="2" />
+      <option name="SET_EL_WRAP" value="0" />
+      <option name="SET_EL_COMMA" value="0" />
+      <option name="WITH_EL_WRAP" value="0" />
+      <option name="WITH_EL_COMMA" value="0" />
+      <option name="SELECT_EL_WRAP" value="3" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="FROM_EL_WRAP" value="2" />
+      <option name="FROM_EL_COMMA" value="2" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="WHERE_EL_WRAP" value="3" />
+      <option name="WHERE_EL_BOUND" value="2" />
+      <option name="ORDER_EL_COMMA" value="2" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+      <option name="POST_OPT_WRAP_2" value="false" />
+      <option name="POST_OPT_ALIGN" value="false" />
+      <option name="ROUTINE_ARG_COMMA" value="2" />
+      <option name="ROUTINE_ARG_ALIGN_TYPES" value="true" />
+      <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+      <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+      <option name="EXPR_CASE_THEN_WRAP" value="true" />
+      <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+    </SQLiteCodeStyleSettings>
+    <ScssCodeStyleSettings>
+      <option name="PROPERTIES_ORDER" value="display, visibility, opacity, overflow, overflow-x, overflow-y, backface-visibility, position, z-index, top, right, bottom, left, float, text-align, vertical-align, text-justify, flex, order, flex-basis, flex-direction, flex-flow, flex-grow, flex-shrink, flex-wrap, justify-content, align-content, align-items, align-self, grid, grid-area, grid-auto-columns, grid-auto-flow, grid-auto-rows, grid-column, grid-column-end, grid-column-gap, grid-column-start, grid-gap, grid-row, grid-row-end, grid-row-gap, grid-row-start, grid-template, grid-template-areas, grid-template-columns, grid-template-rows, box-sizing, width, min-width, max-width, height, min-height, max-height, padding, padding-top, padding-right, padding-bottom, padding-left, border, border-top, border-right, border-bottom, border-left, border-radius, margin, margin-top, margin-right, margin-bottom, margin-left, box-shadow, background, background-color, background-image, background-position, background-size, background-repeat, color, font, font-family, font-style, font-size, font-weight, line-height, letter-spacing, text-decoration, text-shadow, white-space, word-spacing, word-wrap, word-break, line-break, writing-mode, cursor, list-style, list-style-image, list-style-position, list-style-type, outline, outline-color, outline-offset, outline-style, outline-width, transform, transition, transition-property, transition-duration, transition-timing-function, transition-delay, animation, animation-name, animation-duration, animation-timing-function, animation-delay" />
+      <option name="HEX_COLOR_LOWER_CASE" value="true" />
+      <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
+      <option name="KEEP_SINGLE_LINE_BLOCKS" value="true" />
+    </ScssCodeStyleSettings>
+    <SqlCodeStyleSettings version="5">
+      <option name="myVersion" value="5" />
+      <option name="ALIAS_CASE" value="4" />
+      <option name="TYPE_CASE" value="3" />
+      <option name="QUOTE_IDENTIFIER" value="1" />
+      <option name="QUERY_TRUE_INDENT" value="false" />
+      <option name="QUERY_ALIGN_LINE_COMMENTS" value="false" />
+      <option name="INSERT_EL_COMMA" value="2" />
+      <option name="SET_EL_WRAP" value="0" />
+      <option name="SET_EL_COMMA" value="0" />
+      <option name="WITH_EL_WRAP" value="0" />
+      <option name="WITH_EL_COMMA" value="0" />
+      <option name="SELECT_EL_WRAP" value="3" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="FROM_EL_WRAP" value="2" />
+      <option name="FROM_EL_COMMA" value="2" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="WHERE_EL_WRAP" value="3" />
+      <option name="WHERE_EL_BOUND" value="2" />
+      <option name="ORDER_EL_COMMA" value="2" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+      <option name="POST_OPT_WRAP_2" value="false" />
+      <option name="POST_OPT_ALIGN" value="false" />
+      <option name="ROUTINE_ARG_COMMA" value="2" />
+      <option name="ROUTINE_ARG_ALIGN_TYPES" value="true" />
+      <option name="IMP_DECLARE_EL_WRAP" value="1" />
+      <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+      <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+      <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+      <option name="EXPR_CASE_THEN_WRAP" value="true" />
+      <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+      <option name="NEW_LINE_BEFORE_OTHER_CLAUSES" value="false" />
+    </SqlCodeStyleSettings>
+    <SybaseCodeStyleSettings version="5">
+      <option name="myVersion" value="5" />
+      <option name="ALIAS_CASE" value="4" />
+      <option name="TYPE_CASE" value="3" />
+      <option name="QUOTE_IDENTIFIER" value="1" />
+      <option name="QUERY_TRUE_INDENT" value="false" />
+      <option name="QUERY_ALIGN_LINE_COMMENTS" value="false" />
+      <option name="INSERT_EL_COMMA" value="2" />
+      <option name="SET_EL_WRAP" value="0" />
+      <option name="SET_EL_COMMA" value="0" />
+      <option name="WITH_EL_WRAP" value="0" />
+      <option name="WITH_EL_COMMA" value="0" />
+      <option name="SELECT_EL_WRAP" value="3" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="FROM_EL_WRAP" value="2" />
+      <option name="FROM_EL_COMMA" value="2" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="WHERE_EL_WRAP" value="3" />
+      <option name="WHERE_EL_BOUND" value="2" />
+      <option name="ORDER_EL_COMMA" value="2" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+      <option name="POST_OPT_WRAP_2" value="false" />
+      <option name="POST_OPT_ALIGN" value="false" />
+      <option name="ROUTINE_ARG_COMMA" value="2" />
+      <option name="ROUTINE_ARG_ALIGN_TYPES" value="true" />
+      <option name="IMP_DECLARE_EL_WRAP" value="1" />
+      <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+      <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+      <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+      <option name="EXPR_CASE_THEN_WRAP" value="true" />
+      <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+    </SybaseCodeStyleSettings>
+    <TypeScriptCodeStyleSettings version="0">
+      <option name="FORCE_SEMICOLON_STYLE" value="true" />
+      <option name="USE_DOUBLE_QUOTES" value="false" />
+      <option name="FORCE_QUOTE_STYlE" value="true" />
+      <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
+      <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
+      <option name="SPACES_WITHIN_IMPORTS" value="true" />
+      <option name="IMPORT_SORT_MODULE_NAME" value="true" />
+    </TypeScriptCodeStyleSettings>
+    <XML>
+      <option name="XML_ALIGN_ATTRIBUTES" value="false" />
+      <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
+    </XML>
+    <editorconfig>
+      <option name="ENABLED" value="false" />
+    </editorconfig>
+    <codeStyleSettings language="AppleScript">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Blade">
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="4" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="CFML">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="CMake">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="CSS">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+      <arrangement>
+        <rules>
+          <section>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?display</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?visibility</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?opacity</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?overflow</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?overflow-x</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?overflow-y</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?backface-visibility</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?position</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?z-index</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?top</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?right</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?bottom</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?left</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?float</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?text-align</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?vertical-align</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?text-justify</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?order</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex-basis</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex-direction</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex-flow</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex-grow</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex-shrink</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex-wrap</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?justify-content</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?align-content</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?align-items</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?align-self</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-area</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-auto-columns</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-auto-flow</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-auto-rows</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-column</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-column-end</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-column-gap</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-column-start</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-gap</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-row</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-row-end</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-row-gap</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-row-start</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-template</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-template-areas</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-template-columns</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-template-rows</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?box-sizing</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?width</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?min-width</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?max-width</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?height</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?min-height</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?max-height</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?padding</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?padding-top</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?padding-right</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?padding-bottom</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?padding-left</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?border</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?border-top</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?border-right</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?border-bottom</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?border-left</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?border-radius</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?margin</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?margin-top</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?margin-right</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?margin-bottom</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?margin-left</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?box-shadow</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?background</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?background-color</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?background-image</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?background-position</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?background-size</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?background-repeat</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?color</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?font</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?font-family</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?font-style</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?font-size</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?font-weight</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?line-height</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?letter-spacing</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?text-decoration</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?text-shadow</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?white-space</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?word-spacing</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?word-wrap</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?word-break</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?line-break</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?writing-mode</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?cursor</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?list-style</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?list-style-image</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?list-style-position</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?list-style-type</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?outline</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?outline-color</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?outline-offset</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?outline-style</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?outline-width</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?transform</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?transition</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?transition-property</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?transition-duration</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?transition-timing-function</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?transition-delay</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?animation</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?animation-name</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?animation-duration</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?animation-timing-function</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?animation-delay</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </section>
+        </rules>
+      </arrangement>
+    </codeStyleSettings>
+    <codeStyleSettings language="CoffeeScript">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+      <indentOptions>
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="DB2">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Dart">
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Derby">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="ECMA Script Level 4">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="GSP">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Gherkin">
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="GraphQL">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Groovy">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="H2">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="HSQLDB">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="HTML">
+      <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JAVA">
+      <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="LINE_COMMENT_ADD_SPACE" value="true" />
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+      <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+      <option name="KEEP_SIMPLE_LAMBDAS_IN_ONE_LINE" value="true" />
+      <option name="KEEP_SIMPLE_CLASSES_IN_ONE_LINE" value="true" />
+      <option name="KEEP_MULTIPLE_EXPRESSIONS_IN_ONE_LINE" value="true" />
+      <option name="ARRAY_INITIALIZER_WRAP" value="1" />
+      <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
+      <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JSON">
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JSP">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JSPX">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Jade">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JavaScript">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+      <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+      <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+      <option name="ARRAY_INITIALIZER_WRAP" value="5" />
+      <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
+      <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
+      <option name="IF_BRACE_FORCE" value="1" />
+      <option name="DOWHILE_BRACE_FORCE" value="1" />
+      <option name="WHILE_BRACE_FORCE" value="1" />
+      <option name="FOR_BRACE_FORCE" value="1" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="LESS">
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="MySQL">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="ObjectiveC">
+      <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="LINE_COMMENT_ADD_SPACE" value="true" />
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
+      <option name="SPACE_WITHIN_BRACES" value="true" />
+      <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+      <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Oracle">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="PHP">
+      <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="LINE_COMMENT_ADD_SPACE" value="true" />
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <option name="BLANK_LINES_AFTER_PACKAGE" value="1" />
+      <option name="SPECIAL_ELSE_IF_TREATMENT" value="true" />
+      <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+      <option name="ALIGN_MULTILINE_FOR" value="false" />
+      <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
+      <option name="SPACE_AFTER_TYPE_CAST" value="true" />
+      <option name="CALL_PARAMETERS_WRAP" value="1" />
+      <option name="METHOD_PARAMETERS_WRAP" value="5" />
+      <option name="METHOD_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
+      <option name="METHOD_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
+      <option name="ARRAY_INITIALIZER_WRAP" value="1" />
+      <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
+      <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
+      <option name="IF_BRACE_FORCE" value="3" />
+      <option name="DOWHILE_BRACE_FORCE" value="3" />
+      <option name="WHILE_BRACE_FORCE" value="3" />
+      <option name="FOR_BRACE_FORCE" value="3" />
+      <indentOptions>
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="PostgreSQL">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Puppet">
+      <indentOptions>
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Python">
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="4" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="SASS">
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="SCSS">
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+      <arrangement>
+        <rules>
+          <section>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?display</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?visibility</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?opacity</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?overflow</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?overflow-x</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?overflow-y</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?backface-visibility</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?position</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?z-index</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?top</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?right</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?bottom</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?left</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?float</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?text-align</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?vertical-align</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?text-justify</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?order</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex-basis</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex-direction</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex-flow</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex-grow</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex-shrink</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?flex-wrap</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?justify-content</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?align-content</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?align-items</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?align-self</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-area</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-auto-columns</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-auto-flow</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-auto-rows</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-column</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-column-end</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-column-gap</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-column-start</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-gap</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-row</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-row-end</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-row-gap</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-row-start</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-template</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-template-areas</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-template-columns</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?grid-template-rows</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?box-sizing</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?width</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?min-width</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?max-width</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?height</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?min-height</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?max-height</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?padding</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?padding-top</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?padding-right</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?padding-bottom</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?padding-left</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?border</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?border-top</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?border-right</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?border-bottom</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?border-left</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?border-radius</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?margin</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?margin-top</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?margin-right</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?margin-bottom</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?margin-left</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?box-shadow</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?background</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?background-color</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?background-image</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?background-position</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?background-size</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?background-repeat</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?color</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?font</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?font-family</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?font-style</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?font-size</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?font-weight</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?line-height</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?letter-spacing</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?text-decoration</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?text-shadow</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?white-space</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?word-spacing</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?word-wrap</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?word-break</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?line-break</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?writing-mode</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?cursor</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?list-style</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?list-style-image</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?list-style-position</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?list-style-type</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?outline</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?outline-color</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?outline-offset</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?outline-style</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?outline-width</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?transform</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?transition</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?transition-property</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?transition-duration</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?transition-timing-function</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?transition-delay</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?animation</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?animation-name</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?animation-duration</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?animation-timing-function</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <NAME>(-[a-z]+-)?animation-delay</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </section>
+        </rules>
+      </arrangement>
+    </codeStyleSettings>
+    <codeStyleSettings language="SQL">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="SQLite">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Stylus">
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Swift">
+      <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="LINE_COMMENT_ADD_SPACE" value="true" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Sybase">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="TSQL">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Twig">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="TypeScript">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+      <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+      <option name="ARRAY_INITIALIZER_WRAP" value="5" />
+      <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
+      <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
+      <option name="IF_BRACE_FORCE" value="1" />
+      <option name="DOWHILE_BRACE_FORCE" value="1" />
+      <option name="WHILE_BRACE_FORCE" value="1" />
+      <option name="FOR_BRACE_FORCE" value="1" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Vue">
+      <indentOptions>
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="XML">
+      <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+      <arrangement>
+        <rules>
+          <section>
+            <rule>
+              <match>
+                <NAME>xmlns:a</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>xmlns:.*</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:id</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>style</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_width</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_height</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_weight</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_gravity</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:gravity</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:orientation</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:elevation</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:visibility</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_margin</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_marginHorizontal</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_marginVertical</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_marginTop</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_marginRight</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_marginEnd</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_marginBottom</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_marginLeft</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_marginStart</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:padding</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:paddingHorizontal</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:paddingVertical</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:paddingTop</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:paddingRight</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:paddingEnd</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:paddingBottom</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:paddingLeft</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:paddingStart</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:background</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:text</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:textSize</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:textColor</NAME>
+              </match>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:text.*</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_constraintHorizontal.*</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_constraintVertical.*</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_constraintTop.*</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_constraintRight.*</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_constraintEnd.*</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_constraintBottom.*</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_constraintLeft.*</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </section>
+          <section>
+            <rule>
+              <match>
+                <NAME>.*:layout_constraintStart.*</NAME>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </section>
+        </rules>
+      </arrangement>
+    </codeStyleSettings>
+    <codeStyleSettings language="kotlin">
+      <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
+      <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="LINE_COMMENT_ADD_SPACE" value="true" />
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+        <option name="SMART_TABS" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+  </code_scheme>
+</component>
